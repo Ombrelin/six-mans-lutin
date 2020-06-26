@@ -32,12 +32,12 @@ namespace Bot
         {
             if (message.Content == "!q")
             {
-                Engine.EnqueuePlayer(message.Author.Username);
+                await message.Channel.SendMessageAsync(Engine.EnqueuePlayer(message.Author.Username));
             }
 
             if (message.Content == "!dq")
             {
-                Engine.DequeuePLayer(message.Author.Username);
+                await message.Channel.SendMessageAsync(Engine.DequeuePLayer(message.Author.Username));
             }
 
             if (message.Content.StartsWith("!c"))
