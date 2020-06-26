@@ -14,7 +14,7 @@ namespace lutin_bot_v1
         public async Task MainAsync()
         {
             var lutin = new LutinBot(Environment.GetEnvironmentVariable("Token"));
-            await lutin.Start();
+            await lutin.Start(); 
         }
     }
 }
