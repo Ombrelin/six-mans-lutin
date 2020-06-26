@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using bot;
+using Bot;
 
-namespace lutin_bot_v1
+namespace CliApp
 {
     class Program
     {

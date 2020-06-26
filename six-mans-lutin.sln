@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bot", "bot\bot.csproj", "{C29DC342-46F7-48A4-864A-830F9EEFB410}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LutinBot", "LutinBot\LutinBot.csproj", "{C29DC342-46F7-48A4-864A-830F9EEFB410}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lutin-bot-v1", "lutin-bot-v1\lutin-bot-v1.csproj", "{7018D725-F77E-4AF2-9F3F-44F458CC464E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CliApp", "CliApp\CliApp.csproj", "{7018D725-F77E-4AF2-9F3F-44F458CC464E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

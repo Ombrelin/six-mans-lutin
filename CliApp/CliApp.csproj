@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\bot\bot.csproj" />
+      <ProjectReference Include="..\LutinBot\LutinBot.csproj" />
     </ItemGroup>
 
 </Project>
